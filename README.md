@@ -14,9 +14,9 @@ This repository contains the full pipeline: **Data Collection (Web Crawling), Pr
 
 | Role | Name | Student ID |
 | :--- | :--- | :--- |
-| **Data Engineer** | [Muhamad Amirul Hakeem] | [] |
-| **Data Scientist** | [Harith Akid] | [50220124004] |
-| **Data Analyst** | [Rusydi Hakim] | [] |
+| **Data Engineer** | Muhamad Amirul Hakeem | 52213124031 |
+| **Data Scientist** | Harith Akid | 50220124004 |
+| **Data Analyst** | Rusydi Hakim |  |
 
 ---
 
