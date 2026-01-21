@@ -16,7 +16,7 @@ This repository contains the full pipeline: **Data Collection (Web Crawling), Pr
 | :--- | :--- | :--- |
 | **Data Engineer** | Muhamad Amirul Hakeem | 52213124031 |
 | **Data Scientist** | Harith Akid | 50220124004 |
-| **Data Analyst** | Muhamad Rusydi Hakim |  |
+| **Data Analyst** | Muhamad Rusydi Hakim | 52213124508 |
 
 ---
 
@@ -45,30 +45,15 @@ We implemented and compared three specific CNN architectures using **Transfer Le
 
 ## 📊 Results Summary
 
-| Model | Accuracy | mAP Score | Training Time (50 Epochs) |
+| Model | Test Accuracy | Test mAP Score | Training Time (50 Epochs) |
 | :--- | :--- | :--- | :--- |
-| **ResNet50** | [] | [] | [] |
-| **DenseNet121** | [] | [] | [] |
-| **MobileNetV3** | [] | [] | [] |
+| **ResNet50** | 0.9791 | 0.9941 | 20 minutes |
+| **DenseNet121** | 0.9781 | 0.9974 | 21 minutes |
+| **MobileNetV3** | 0.9652 | 0.9936 | 11 minutes |
 
 *Detailed Confusion Matrices and Loss/Accuracy graphs are available in the notebooks.*
 
 ---
 
-## 🛠️ How to Run
-1.  **Open the Notebook:**
-    * You can open the `.ipynb` files directly in Google Colab.
-2.  **Dataset Setup:**
-    * The notebook includes a script to download and organize the dataset automatically.
-    * Ensure you mount Google Drive to save the data permanently.
-3.  **Training:**
-    * Run the "Training" cells to reproduce the results.
-    * *Note: Training requires a GPU runtime.*
 
----
 
-## 📜 Requirements
-* Python 3.x
-* TensorFlow / Keras
-* Matplotlib (for visualization)
-* Bing Image Downloader (for data collection)
